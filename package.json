@@ -1,0 +1,24 @@
+{
+  "name": "vue3-ssr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "server": "node server.cjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^22.0.2",
+    "@vue/server-renderer": "^3.4.34",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
